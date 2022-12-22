@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+#wrap {
+	width: 100vw;
+	height: 100vh;
+}
+
+#title {
+	position: relative;
+	top: 3vw;
+	left: 3vw;
+	width: 100vw;
+	height: 6vw;
+	transform: translate(-3vw, -3vw);
+	background-color: rgba(245, 245, 245, 1);
+	font-size: 3.5vw;
+	text-align: center;
+	line-height: 3.5vw;
+	cursor: pointer
+}
+
+#logo {
+	position: relative;
+	top: 4vw;
+	left: 5vw;
+	width: 8vw;
+	height: 4vw;
+	transform: translate(-3vw, -3vw);
+	border: 0.5vw solid rgba(0, 0, 0, 1);
+	font-size: 1.5vw;
+	text-align: center;
+	line-height: 3.5vw;
+	background-color: rgba(204, 144, 61, 1);
+}
+
+.search {
+	position: relative;
+	top: 0vw;
+	left: 18vw;
+	width: 18vw;
+	height: 2vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 3vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 2.5vw;
+}
+
+.search.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+.searchb {
+	position: relative;
+	top: -2.6vw;
+	left: 37vw;
+	width: 4.5vw;
+	height: 2vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 1.5vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1.5vw;
+}
+
+.searchb.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.regist {
+	position: relative;
+	top: -6.5vw;
+	left: 60vw;
+	width: 5vw;
+	height: 3.5vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 1.5vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 3.8vw;
+}
+
+.regist.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.regist.on:hover {
+	background-color: rgba(166, 166, 166, 1);
+	border: 0.3vw solid rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.zzim {
+	position: relative;
+	top: -10.5vw;
+	left: 75vw;
+	width: 5vw;
+	height: 3.5vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 1.5vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 3.8vw;
+}
+
+.zzim.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.zzim.on:hover {
+	background-color: rgba(166, 166, 166, 1);
+	border: 0.3vw solid rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.end {
+	position: relative;
+	top: -14vw;
+	left: 88vw;
+	width: 7vw;
+	height: 1vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 1vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1vw;
+}
+
+.end.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.end.on:hover {
+	background-color: rgba(166, 166, 166, 1);
+	border: 0.3vw solid rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+.sign {
+	position: relative;
+	top: -14vw;
+	left: 88vw;
+	width: 7vw;
+	height: 1vw;
+	transform: translate(-3vw, -3vw);
+	font-size: 1vw;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1vw;
+}
+
+.sign.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.sign.on:hover {
+	background-color: rgba(166, 166, 166, 1);
+	border: 0.3vw solid rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+#screen {
+	width: 85%;
+	height: 80%;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.courie {
+	position: relative;
+	top: 10vw;
+	left: 15vw;
+	background-color: rgba(255, 167, 167, 1);
+	color: rgba(1, 1, 1, 1);
+	float: left;
+	width: 15vw;
+	height: 8vh;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 3vw;
+	text-align: center;
+	line-height: 8vh;
+	cursor: pointer
+}
+.courie.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+
+.direct {
+	position: relative;
+	top: 10vw;
+	left: 24.1vw;
+	background-color: rgba(255, 167, 167, 1);
+	color: rgba(1, 1, 1, 1);
+	float: left;
+	width: 15vw;
+	height: 8vh;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 3vw;
+	text-align: center;
+	line-height: 8vh;
+	cursor: pointer
+}
+.direct.on {
+	background-color: rgba(246, 246, 246, 1);
+	border: 0.3vw solid rgba(1, 1, 1, 1);
+}
+.board {
+	position: relative;
+	top: 16vw;
+	left: -8vw;
+	background-color: rgba(140, 140, 140, 1);
+	float: left;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 3vw;
+	text-align: center;
+	line-height: 10vh;
+	cursor: pointer
+}
+.board.on{
+	background-color: rgba(166, 166, 166, 1);
+	border: 0.3vw solid rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
